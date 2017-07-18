@@ -4,3 +4,4 @@ var charizard = {
 };
 
 console.log(charizard["HP"]);
+console.log(chariard.attacl);
