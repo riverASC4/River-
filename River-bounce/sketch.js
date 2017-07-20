@@ -1,26 +1,31 @@
 function setup() {
-    createCanvas(500, 400);
+    createCanvas(500, 500);
     background(150);
 }
 
 
+var xPos = 21;
+var yPos = 21;
+var x = 14;     // direction & speed. Pos == right, neg == left
+var y = 12;     // direction & speed. Pos == down, neg == up
 
-var xPos = 0
-var yPos = 0
-var x = 3
-var y = 7
 
-
-function draw() {
+function draw(){
     background(150);
-    if(xPos < 0 || yPos > 500) x=-x;
-    if(yPos < 0 || yPos > 500
+    ellipse(xPos, yPos, 80);
+     xPos += x; yPos+= y;
 
-    
-    ellipse(xPos, yPos, 86);
-   
+     if(xPos >= 480  || xPos <=20 ){
+         x *= - 1;
+     }
+
+     if(yPos >= 480 || yPos <=20){
+        y = -y;
+}}   
+
+
+
+  
     
   
 
-
-  
