@@ -19,7 +19,7 @@ function draw(){
          x *= - 1;
      }
 
-     if(yPos >= 480 || yPos <=20){
+    if(yPos >= 480 || yPos <=20){
         y = -y;
 }}   
 

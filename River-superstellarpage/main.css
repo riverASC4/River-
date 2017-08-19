@@ -1,0 +1,51 @@
+body {
+    background-image: url("Cosmos.jpg");
+}
+
+#Pokeimg {
+    margin-top: -10px;
+}
+
+#Pokeimg2 {    
+    margin-top: -90px;        
+    margin-left:40px
+}
+
+#Pokeimg3 {
+    margin-top: -295px;
+    margin-bottom: 50px;
+    margin-left: 460px;
+    margin-right:5px;
+}
+
+#Pokeimg4 {
+    margin-top:1500px;
+    margin-bottom:10px;
+}
+
+#Pokeimg5 {
+    margin-top:-2580px;
+    margin-left:920px;
+}
+
+#Pokeimg6 {
+    margin-top:400px;
+}
+
+.navbar  {
+     padding:14px;
+     margin-top:10px;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+P {
+    font-family: serif;
+    font-size: 32px;
+    color:white;
+    background-color:black;
+    padding:15px
+}
+
+
+
+

@@ -1,0 +1,34 @@
+body {
+    background-image: url("IBoWka6.jpg");
+}
+
+#Pokeimg {
+    height: 640px;
+    width: 640px;
+    margin-left:60px;
+    margin-top: 35px;
+}
+
+.navbar  {
+     padding:20px;
+     margin-top:65px;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+
+p {
+    font-family: serif;
+    font-size: 31px;
+    background-color: tan;
+    padding: 10px;
+}
+
+#Pokeimg2 {
+    padding-bottom: 130px;
+    height: 100px;
+    width: 30px;
+    position: absolute;
+    } 
+
+
+
