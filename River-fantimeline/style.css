@@ -1,13 +1,9 @@
 body {
-    background-image: url("AfricanR_Hero.jpg");
-    background-position: center;
+    background-color: black;
     background-size:cover;
 }
 
 .AR {
-   border: solid 3px black;
-   background-color: darkslategrey;
-   width:60%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 10px;
@@ -15,11 +11,34 @@ body {
 }
 
 .AR2 {
-   border: solid 3px black;
-   background-color: green;
-   width:80%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 10px;
    padding: 10px;
+}
+
+#link1 {
+    color: white;
+}
+
+#link2 {
+    color: white;
+    margin-left:800px;
+    margin-top:40px;
+}
+
+#link3 {
+    color: white;
+    margin-left:950px;
+
+}
+
+#link4 {
+    color: white;
+    margin-left:1100px;
+}
+
+img {
+   height: 900px;
+   width: 100%;
 }

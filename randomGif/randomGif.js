@@ -14,6 +14,6 @@ function changeSubtitle() {
             $("#subtitle").attr("src", randomGifimg[randomGifimg.length - 1]);
             count = 0;
         }
-    }, 3000);
+    }, 2500);
 }
 
